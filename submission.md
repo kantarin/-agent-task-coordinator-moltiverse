@@ -8,16 +8,16 @@
 
 ## 📝 Project Description
 
-**Agent Task Coordinator** เป็นระบบที่ทำให้ **agents หลายตัวสามารถ coordinate และ collaborate กัน** ได้โดยไม่ต้องมี human intervention
+**Agent Task Coordinator** is a system that allows **multiple agents to coordinate and collaborate** without human intervention.
 
 ### Core Concept
-- Agents สามารถ publish tasks
-- Agents อื่น browse และ accept/reject tasks
-- Track task status อัตโนมัติ
-- Scalable coordination system
+- Agents can publish tasks.
+- Other agents browse and accept/reject tasks.
+- Automatic task status tracking.
+- Scalable coordination system.
 
 ### Why It Matters
-ในอนาคต agents จะทำงานเยอะมาก — เราต้องการระบบที่ทำให้ agents coordinate กันเองได้โดยไม่ต้องให้ human จัดการ
+In the future, agents will perform many tasks — we need a system that allows agents to coordinate with each other without human intervention.
 
 ---
 
@@ -36,11 +36,11 @@
 ## 🎨 Features
 
 ### Core Features:
-1. **Task Publishing** — Agents สามารถ publish tasks พร้อม requirements
-2. **Task Discovery** — Agents สามารถ browse available tasks
-3. **Task Acceptance** — Agents accept tasks พร้อม ETA
+1. **Task Publishing** — Agents can publish tasks with requirements.
+2. **Task Discovery** — Agents can browse available tasks.
+3. **Task Acceptance** — Agents accept tasks with ETA.
 4. **Status Tracking** — Real-time task status updates
-5. **Completion Reporting** — Agents report results เมื่อเสร็จ
+5. **Completion Reporting** — Agents report results upon completion.
 
 ### Bonus Features:
 1. **Task Bidding** — Agents compete for tasks (demonstrated)
@@ -60,8 +60,8 @@ CREATE → ASSIGNED → IN_PROGRESS → COMPLETED/FAILED
 ### Example Flow:
 1. Agent A publishes: "Research latest crypto trends"
 2. Agent B accepts with ETA: "2 hours"
-3. Agent B completes research
-4. Agent A receives results
+3. Agent B completes research.
+4. Agent A receives results.
 5. Agent reputation updated
 
 ---
@@ -90,7 +90,7 @@ Shows failure handling:
 - Agent A → Publish task
 - Agent B accepts but fails
 - Task auto-escalates to Agent C
-- Agent C completes successfully
+-Agent C completes successfully
 
 **Run:** `node demo-scenarios/task-escalation.js`
 
@@ -116,7 +116,7 @@ Shows failure handling:
 ### 4. Bonus: A2A Coordination 🤝
 - **Bonus points from judges!**
 - Agent-to-Agent communication
-- Distributed task management
+- Distributed tasks management
 
 ---
 
@@ -124,23 +124,23 @@ Shows failure handling:
 
 ```
 moltiverse/
-├── README.md                    # Project overview
-├── notes.md                     # Research notes
-├── ideas.md                     # Brainstorming
-├── timeline.md                  # Implementation timeline
-├── submission.md                # This file
-├── draft.md                     # Draft submission
-└── implementation/
-    ├── README.md                # Implementation docs
-    ├── task-manager.js          # Core system
-    ├── agent-protocol.js        # Communication
-    ├── demo-scenarios/
-    │   ├── simple-task-flow.js # Demo 1
-    │   ├── multiple-bidders.js # Demo 2
-    │   └── task-escalation.js # Demo 3
-    └── data/                 # Runtime data
-        ├── tasks.json
-        └── agents.json
+├── README.md # Project overview
+├── notes.md # Research notes
+├── ideas.md # Brainstorming
+├── timeline.md # Implementation timeline
+├── submission.md # This file
+├── draft.md # Draft submission
+└── implementation/ 
+├── README.md # Implementation docs 
+├── task-manager.js # Core system 
+├── agent-protocol.js # Communication 
+├── demo-scenarios/ 
+│ ├── simple-task-flow.js # Demo 1 
+│ ├── multiple-bidders.js # Demo 2 
+│ └── task-escalation.js # Demo 3 
+└── data/ # Runtime data 
+├── tasks.json 
+└── agents.json
 ```
 
 ---
@@ -169,7 +169,7 @@ All demos produce:
 - Task state transitions
 - Result delivery
 - Agent reputation updates
-- Full statistics
+-Full statistics
 
 ---
 
@@ -190,7 +190,7 @@ All demos produce:
 
 ---
 
-## 🎯 Why This Wins
+## 🎯Why This Wins
 
 ### Addresses Judging Criteria:
 
@@ -207,65 +207,4 @@ All demos produce:
 
 🚀 **Pushes Boundaries:**
 - Agents coordinate 24/7 (impossible for humans)
-- Scalable architecture
-- Foundation for AI economies
-
-🤝 **Bonus: A2A Coordination:**
-- Explicit bonus criterion
-- Full demonstration
-- Working protocol
-
----
-
-## 📝 Quick Start
-
-### For Judges:
-
-```bash
-# Navigate to implementation
-cd implementation/
-
-# Run all 3 demos
-node demo-scenarios/simple-task-flow.js
-node demo-scenarios/multiple-bidders.js
-node demo-scenarios/task-escalation.js
-
-# Check statistics
-node task-manager.js stats
-node task-manager.js agents
-```
-
-### Expected Output:
-- All demos run successfully
-- Tasks flow through complete lifecycle
-- Agents coordinate effectively
-- Statistics tracked accurately
-
----
-
-## 🏆 Achievements
-
-- ✅ Core task management system
-- ✅ Agent communication protocol
-- ✅ 3 working demo scenarios
-- ✅ Task state transitions
-- ✅ Agent reputation system
-- ✅ Auto-escalation on failure
-- ✅ Data persistence
-- ✅ Full documentation
-
----
-
-## 💡 Future Enhancements
-
-1. **Real Agent Integration** — Integrate with actual OpenClaw sessions
-2. **Web UI** — Visual task dashboard
-3. **Advanced Bidding** — More sophisticated bid selection
-4. **Multi-Chain Support** — Support multiple blockchains
-5. **Token Integration** — Add token rewards for completed tasks
-
----
-
-*Submission Date: 2026-02-06*
-*Status: Ready for Submission ✅*
-*Track: Agent Track (No Token Required)*
+- Scalable archit
