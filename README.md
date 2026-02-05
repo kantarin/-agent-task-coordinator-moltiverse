@@ -26,12 +26,12 @@
 
 ```
 moltiverse/
-├── README.md          # ภาพรวมโปรเจค (ไฟล์นี้)
-├── ideas.md           # ไอเดียต่างๆ
-├── notes.md           # notes จากการวิจัย
-├── timeline.md        # timeline และ milestones
-├── draft.md           # drafts สำหรับ submission
-└── submission.md      # สิ่งที่จะส่งจริง
+├── README.md          # Project Overview (this file)
+├── ideas.md           # Ideas
+├── notes.md           # Notes from the research.
+├── timeline.md        # timeline and milestones
+├── draft.md           # Drafts for submission.
+└── submission.md      # What will actually be sent.
 ```
 
 ---
@@ -62,9 +62,9 @@ moltiverse/
 
 ## ✅ Judges Want
 
-- ✨ **Weird and creative** - แปลกๆ ดีไม่ซ้ำใคร
-- 🛠️ **Actually works** - demo คือทุกอย่าง
-- 🚀 **Push boundaries** - agents ทำอะไรที่ human ทำไม่ได้
+- ✨ **Weird and creative** 
+- 🛠️ **Actually works** 
+- 🚀 **Push boundaries** 
 - 🤝 **Bonus:** A2A coordination, trading, community building
 
 ---
