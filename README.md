@@ -10,9 +10,9 @@
 ## 🎯 Selected Track
 
 **Agent Track** (No Token Required)
-- เน้นสร้าง agent ที่ทำอะไรสักอย่างอย่างน่าสนใจ
-- Monad integration optional
-- Demo และ documentation คือทุกอย่าง
+-Focus on creating agents that do something interesting.
+-Monad integration is optional.
+-Demo and documentation are everything.
 
 ---
 
