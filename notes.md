@@ -7,8 +7,8 @@
 **Organized by:** Nadfun & Monad
 **Theme:** Agents + High-performance blockchain
 **Total Prizes:** $200K
-  - $10K per winner (up to 16 winners)
-  - $40K liquidity boost (1 winner)
+- $10K per winner (up to 16 winners)
+- $40K liquidity boost (1 winner)
 **Timeline:** Feb 2-15, 2026 (Rolling review)
 
 ---
@@ -16,23 +16,23 @@
 ## 🛤️ Two Tracks
 
 ### Track 1: 🪙 Agent + Token Track
-- Deploy token บน nad.fun
-- Agent ต้อง interact กับ token
-- Token จะกลายเป็นส่วนหนึ่งของ ecosystem
+- Deploy token on nad.fun
+- Agent must interact with token
+- Token will become part of the ecosystem
 
 ### Track 2: 🤖 Agent Track (No Token Required)
-- Build agent ที่ทำอะไรสักอย่าง interesting
-- Monad integration optional แต่ช่วยดูดี
-- เน้น demo และ documentation
+- Build an agent that does something interesting
+- Monad integration optional but helps improve the overall look
+- Focus on demo and documentation
 
 ---
 
-## 🎯 What Judges Want
+## 🎯 What Judges Wanted
 
 **Key criteria:**
-1. ✨ **Weird and creative** - แปลกๆ ดีไม่ซ้ำใคร
-2. 🛠️ **Actually works** - demos คือทุกอย่าง
-3. 🚀 **Push boundaries** - agents ทำอะไรที่ human ทำไม่ได้
+1. ✨ **Weird and creative** - Unique and original
+2. 🛠️ **Actually works** - Demos are everything
+3. 🚀 **Push boundaries** - Agents do things humans can't
 4. 🤝 **Bonus:** A2A coordination, trading, community building
 
 ---
@@ -52,13 +52,13 @@
 ### Contract Addresses (Mainnet)
 ```
 BondingCurveRouter = 0x6F6B8F1a20703309951a5127c45B49b1CD981A22
-Curve              = 0xA7283d07812a02AFB7C09B60f8896bCEA3F90aCE
-Lens               = 0x7e78A8DE94f21804F7a17F4E8BF9EC2c872187ea
+Curve = 0xA7283d07812a02AFB7C09B60f8896bCEA3F90aCE
+Lens = 0x7e78A8DE94f21804F7a17F4E8BF9EC2c872187ea
 ```
 
 ### Token Creation Flow (4 Steps)
-1. Upload Image → `POST /agent/token/image` → returns `image_uri`
-2. Upload Metadata → `POST /agent/token/metadata` → returns `metadata_uri`
+1. Upload Image → `POST /agent/token/image` → returns 1. Upload Metadata → `POST /agent/token/metadata` → returns `metadata_uri`
+2. Upload Metadata → `POST /agent/salt` → returns `salt` + vanity address (7777)
 3. Mine Salt → `POST /agent/salt` → returns `salt` + vanity address (7777)
 4. Create On-Chain → Call `BondingCurveRouter.create()` with params
 
@@ -68,11 +68,11 @@ Lens               = 0x7e78A8DE94f21804F7a17F4E8BF9EC2c872187ea
 
 ## 🤔 FAQ Insights
 
-- **ไม่ต้องมี crypto experience:** Agent Track ไม่ต้องมี knowledge เกี่ยวกับ blockchain
-- **ส่งทั้ง 2 tracks ได้:** แต่ project ต้อง substantial different
-- **ไม่ต้องมี team:** Solo dev welcome
-- **ใช้ existing code ได้:** แต่ต้อง document ว่าอะไรเป็น original/reused
-- **Rolling judging:** Early excellence gets early rewards + maximum exposure
+- **No crypto experience required:** Agent Track does not require blockchain knowledge.
+- **Both tracks can be submitted:** but projects must be substantially different.
+- **No team required:** Solo developers are welcome.
+- **Existing code can be used:** but documentation is required regarding original/reused code.
+- **Rolling judging:** Early excellence receives early rewards + maximum exposure.
 
 ---
 
@@ -96,8 +96,8 @@ Lens               = 0x7e78A8DE94f21804F7a17F4E8BF9EC2c872187ea
 3. **Rose Token** (36 upvotes) — Agent Task Marketplace
 
 **Patterns:**
-- AI agents ที่มี utility จริง
-- Integration กับ DeFi/trading
+- AI agents with real utility
+- Integration with DeFi/Trading
 - Community-driven projects
 
 ---
@@ -105,25 +105,25 @@ Lens               = 0x7e78A8DE94f21804F7a17F4E8BF9EC2c872187ea
 ## 🎨 Possible Ideas (To explore)
 
 ### Agent Track Ideas:
-- Agent ที่ coordinate tasks ระหว่าง agents หลายตัว
-- Agent ที่ analyze/predict sentiment จากหลาย sources
-- Agent ที่ manage portfolio อัตโนมัติ
-- Agent ที่ curate content จาก community
-- Agent ที่ create content อัตโนมัติ (บทความ, threads)
+- Agents that coordinate tasks between multiple agents
+- Agents that analyze/predict sentiment from multiple sources
+- Agents that manage portfolios automatically
+- Agents that curate content from the community
+- Agents that create content automatically (articles, threads)
 
 ### Agent + Token Track Ideas:
-- Agent ที่ stake/trade tokens อัตโนมัติ
-- Agent marketplace (ใช้ token เป็น payment)
-- Coordination protocol สำหรับ agents
+- Agents that stake/trade tokens automatically
+- Agent marketplace (using tokens as payment)
+- Coordination protocol for agents
 
 ---
 
 ## 📝 Key Takeaways
 
-1. **Agent narrative is HOT** — ตอนนี้จังหวะดีมาก
-2. **Rolling review** — Submit early, win early
-3. **Demo > Ideas** — อย่าแค่ pitch, ต้องมี demo
-4. **Creative + Weird = Good** — อย่าเลียนแบบคนอื่น
+1. **Agent narrative is HOT** — Now is a great time.
+2. **Rolling review** — Submit early, win early.
+3. **Demo > Ideas** — Don't just pitch, have a demo.
+4. **Creative + Weird = Good** — Don't copy others.
 
 ---
 
