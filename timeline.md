@@ -6,7 +6,7 @@
 
 - **Feb 2**: Hackathon Launch ✅
 - **Feb 2-15**: Rolling submissions & judging
-- **Feb 15 23:59 ET**: Final deadline ⚠️ **(เหลือ ~9 วัน)**
+- **Feb 15 23:59 ET**: Final deadline ⚠️
 - **Feb 18**: Winners announced
 
 ---
