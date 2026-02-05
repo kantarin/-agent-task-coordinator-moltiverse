@@ -1,0 +1,500 @@
+[
+  {
+    "id": "TASK-ML9RNIM6-IXR9W",
+    "title": "Research Latest Crypto Trends",
+    "description": "Research the latest cryptocurrency trends and summarize key insights",
+    "requirements": [
+      "research"
+    ],
+    "priority": "HIGH",
+    "createdAt": "2026-02-05T18:04:41.598Z",
+    "createdBy": "agent-A",
+    "status": "COMPLETED",
+    "assignedTo": "agent-B",
+    "acceptedAt": "2026-02-05T18:04:41.601Z",
+    "startedAt": "2026-02-05T18:04:41.646Z",
+    "completedAt": "2026-02-05T18:04:41.745Z",
+    "eta": "2 hours",
+    "result": {
+      "summary": "Key cryptocurrency trends for 2026 include:\n1. AI agents driving DeFi innovation\n2. USDC stablecoin dominance\n3. Layer 2 scaling solutions\n4. Agent-to-agent payment protocols",
+      "insights": [
+        "Agent coordination protocols are emerging",
+        "Stablecoin payments between agents are becoming mainstream",
+        "Prediction markets for AI outcomes are growing"
+      ],
+      "sources": [
+        "https://twitter.com/crypto",
+        "https://moltbook.com/m/usdc",
+        "Industry reports"
+      ]
+    },
+    "failureReason": null,
+    "history": [
+      {
+        "action": "CREATED",
+        "message": "Task created",
+        "timestamp": "2026-02-05T18:04:41.598Z",
+        "actor": "agent-A"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-B (ETA: 2 hours)",
+        "timestamp": "2026-02-05T18:04:41.601Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "STARTED",
+        "message": "Task started",
+        "timestamp": "2026-02-05T18:04:41.646Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "COMPLETED",
+        "message": "Task completed successfully",
+        "timestamp": "2026-02-05T18:04:41.745Z",
+        "actor": "agent-B"
+      }
+    ]
+  },
+  {
+    "id": "TASK-ML9RNP38-DP3S6",
+    "title": "Analyze Market Data",
+    "description": "Analyze the latest cryptocurrency market data and provide trading insights",
+    "requirements": [
+      "analysis"
+    ],
+    "priority": "HIGH",
+    "createdAt": "2026-02-05T18:04:49.988Z",
+    "createdBy": "agent-A",
+    "status": "ASSIGNED",
+    "assignedTo": "agent-C",
+    "acceptedAt": "2026-02-05T18:04:49.995Z",
+    "startedAt": null,
+    "completedAt": null,
+    "eta": "3 hours",
+    "result": null,
+    "failureReason": null,
+    "history": [
+      {
+        "action": "CREATED",
+        "message": "Task created",
+        "timestamp": "2026-02-05T18:04:49.989Z",
+        "actor": "agent-A"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-C (ETA: 3 hours)",
+        "timestamp": "2026-02-05T18:04:49.995Z",
+        "actor": "agent-C"
+      }
+    ]
+  },
+  {
+    "id": "TASK-ML9RNTYP-MBV8V",
+    "title": "Complex Research Project",
+    "description": "Research a complex topic requiring deep analysis",
+    "requirements": [
+      "research"
+    ],
+    "priority": "HIGH",
+    "createdAt": "2026-02-05T18:04:56.305Z",
+    "createdBy": "agent-A",
+    "status": "ASSIGNED",
+    "assignedTo": "agent-C",
+    "acceptedAt": "2026-02-05T18:04:56.453Z",
+    "startedAt": null,
+    "completedAt": null,
+    "eta": "6 hours",
+    "result": null,
+    "failureReason": "Unable to complete due to lack of required data sources",
+    "history": [
+      {
+        "action": "CREATED",
+        "message": "Task created",
+        "timestamp": "2026-02-05T18:04:56.306Z",
+        "actor": "agent-A"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-B (ETA: 4 hours)",
+        "timestamp": "2026-02-05T18:04:56.308Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "STARTED",
+        "message": "Task started",
+        "timestamp": "2026-02-05T18:04:56.408Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "FAILED",
+        "message": "Task failed: Unable to complete due to lack of required data sources",
+        "timestamp": "2026-02-05T18:04:56.445Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "REOPENED",
+        "message": "Task reopened for reassignment",
+        "timestamp": "2026-02-05T18:04:56.445Z",
+        "actor": "system"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-C (ETA: 6 hours)",
+        "timestamp": "2026-02-05T18:04:56.453Z",
+        "actor": "agent-C"
+      }
+    ]
+  },
+  {
+    "id": "TASK-ML9S6RZ6-1ZPI5",
+    "title": "Research Latest Crypto Trends",
+    "description": "Research the latest cryptocurrency trends and summarize key insights",
+    "requirements": [
+      "research"
+    ],
+    "priority": "HIGH",
+    "createdAt": "2026-02-05T18:19:40.194Z",
+    "createdBy": "agent-A",
+    "status": "COMPLETED",
+    "assignedTo": "agent-B",
+    "acceptedAt": "2026-02-05T18:19:40.198Z",
+    "startedAt": "2026-02-05T18:19:40.241Z",
+    "completedAt": "2026-02-05T18:19:40.361Z",
+    "eta": "2 hours",
+    "result": {
+      "summary": "Key cryptocurrency trends for 2026 include:\n1. AI agents driving DeFi innovation\n2. USDC stablecoin dominance\n3. Layer 2 scaling solutions\n4. Agent-to-agent payment protocols",
+      "insights": [
+        "Agent coordination protocols are emerging",
+        "Stablecoin payments between agents are becoming mainstream",
+        "Prediction markets for AI outcomes are growing"
+      ],
+      "sources": [
+        "https://twitter.com/crypto",
+        "https://moltbook.com/m/usdc",
+        "Industry reports"
+      ]
+    },
+    "failureReason": null,
+    "history": [
+      {
+        "action": "CREATED",
+        "message": "Task created",
+        "timestamp": "2026-02-05T18:19:40.194Z",
+        "actor": "agent-A"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-B (ETA: 2 hours)",
+        "timestamp": "2026-02-05T18:19:40.198Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "STARTED",
+        "message": "Task started",
+        "timestamp": "2026-02-05T18:19:40.241Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "COMPLETED",
+        "message": "Task completed successfully",
+        "timestamp": "2026-02-05T18:19:40.361Z",
+        "actor": "agent-B"
+      }
+    ]
+  },
+  {
+    "id": "TASK-ML9S7NDU-B5TCX",
+    "title": "Analyze Market Data",
+    "description": "Analyze the latest cryptocurrency market data and provide trading insights",
+    "requirements": [
+      "analysis"
+    ],
+    "priority": "HIGH",
+    "createdAt": "2026-02-05T18:20:20.899Z",
+    "createdBy": "agent-A",
+    "status": "ASSIGNED",
+    "assignedTo": "agent-C",
+    "acceptedAt": "2026-02-05T18:20:20.906Z",
+    "startedAt": null,
+    "completedAt": null,
+    "eta": "3 hours",
+    "result": null,
+    "failureReason": null,
+    "history": [
+      {
+        "action": "CREATED",
+        "message": "Task created",
+        "timestamp": "2026-02-05T18:20:20.899Z",
+        "actor": "agent-A"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-C (ETA: 3 hours)",
+        "timestamp": "2026-02-05T18:20:20.906Z",
+        "actor": "agent-C"
+      }
+    ]
+  },
+  {
+    "id": "TASK-ML9S82SU-QK8PT",
+    "title": "Complex Research Project",
+    "description": "Research a complex topic requiring deep analysis",
+    "requirements": [
+      "research"
+    ],
+    "priority": "HIGH",
+    "createdAt": "2026-02-05T18:20:40.878Z",
+    "createdBy": "agent-A",
+    "status": "ASSIGNED",
+    "assignedTo": "agent-C",
+    "acceptedAt": "2026-02-05T18:20:41.449Z",
+    "startedAt": null,
+    "completedAt": null,
+    "eta": "6 hours",
+    "result": null,
+    "failureReason": "Unable to complete due to lack of required data sources",
+    "history": [
+      {
+        "action": "CREATED",
+        "message": "Task created",
+        "timestamp": "2026-02-05T18:20:40.879Z",
+        "actor": "agent-A"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-B (ETA: 4 hours)",
+        "timestamp": "2026-02-05T18:20:40.881Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "STARTED",
+        "message": "Task started",
+        "timestamp": "2026-02-05T18:20:40.929Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "FAILED",
+        "message": "Task failed: Unable to complete due to lack of required data sources",
+        "timestamp": "2026-02-05T18:20:41.087Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "REOPENED",
+        "message": "Task reopened for reassignment",
+        "timestamp": "2026-02-05T18:20:41.087Z",
+        "actor": "system"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-C (ETA: 6 hours)",
+        "timestamp": "2026-02-05T18:20:41.449Z",
+        "actor": "agent-C"
+      }
+    ]
+  },
+  {
+    "id": "TASK-ML9SEQSF-P13XY",
+    "title": "Research Latest Crypto Trends",
+    "description": "Research the latest cryptocurrency trends and summarize key insights",
+    "requirements": [
+      "research"
+    ],
+    "priority": "HIGH",
+    "createdAt": "2026-02-05T18:25:51.903Z",
+    "createdBy": "agent-A",
+    "status": "COMPLETED",
+    "assignedTo": "agent-B",
+    "acceptedAt": "2026-02-05T18:25:51.908Z",
+    "startedAt": "2026-02-05T18:25:51.999Z",
+    "completedAt": "2026-02-05T18:25:52.106Z",
+    "eta": "2 hours",
+    "result": {
+      "summary": "Key cryptocurrency trends for 2026 include:\n1. AI agents driving DeFi innovation\n2. USDC stablecoin dominance\n3. Layer 2 scaling solutions\n4. Agent-to-agent payment protocols",
+      "insights": [
+        "Agent coordination protocols are emerging",
+        "Stablecoin payments between agents are becoming mainstream",
+        "Prediction markets for AI outcomes are growing"
+      ],
+      "sources": [
+        "https://twitter.com/crypto",
+        "https://moltbook.com/m/usdc",
+        "Industry reports"
+      ]
+    },
+    "failureReason": null,
+    "history": [
+      {
+        "action": "CREATED",
+        "message": "Task created",
+        "timestamp": "2026-02-05T18:25:51.904Z",
+        "actor": "agent-A"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-B (ETA: 2 hours)",
+        "timestamp": "2026-02-05T18:25:51.908Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "STARTED",
+        "message": "Task started",
+        "timestamp": "2026-02-05T18:25:51.999Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "COMPLETED",
+        "message": "Task completed successfully",
+        "timestamp": "2026-02-05T18:25:52.106Z",
+        "actor": "agent-B"
+      }
+    ]
+  },
+  {
+    "id": "TASK-ML9SHO0G-MBOZK",
+    "title": "Research Latest Crypto Trends",
+    "description": "Research the latest cryptocurrency trends and summarize key insights",
+    "requirements": [
+      "research"
+    ],
+    "priority": "HIGH",
+    "createdAt": "2026-02-05T18:28:08.272Z",
+    "createdBy": "agent-A",
+    "status": "COMPLETED",
+    "assignedTo": "agent-B",
+    "acceptedAt": "2026-02-05T18:28:08.277Z",
+    "startedAt": "2026-02-05T18:28:08.393Z",
+    "completedAt": "2026-02-05T18:28:08.638Z",
+    "eta": "2 hours",
+    "result": {
+      "summary": "Key cryptocurrency trends for 2026 include:\n1. AI agents driving DeFi innovation\n2. USDC stablecoin dominance\n3. Layer 2 scaling solutions\n4. Agent-to-agent payment protocols",
+      "insights": [
+        "Agent coordination protocols are emerging",
+        "Stablecoin payments between agents are becoming mainstream",
+        "Prediction markets for AI outcomes are growing"
+      ],
+      "sources": [
+        "https://twitter.com/crypto",
+        "https://moltbook.com/m/usdc",
+        "Industry reports"
+      ]
+    },
+    "failureReason": null,
+    "history": [
+      {
+        "action": "CREATED",
+        "message": "Task created",
+        "timestamp": "2026-02-05T18:28:08.273Z",
+        "actor": "agent-A"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-B (ETA: 2 hours)",
+        "timestamp": "2026-02-05T18:28:08.277Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "STARTED",
+        "message": "Task started",
+        "timestamp": "2026-02-05T18:28:08.393Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "COMPLETED",
+        "message": "Task completed successfully",
+        "timestamp": "2026-02-05T18:28:08.638Z",
+        "actor": "agent-B"
+      }
+    ]
+  },
+  {
+    "id": "TASK-ML9SVJKD-W1VC3",
+    "title": "Analyze Market Data",
+    "description": "Analyze the latest cryptocurrency market data and provide trading insights",
+    "requirements": [
+      "analysis"
+    ],
+    "priority": "HIGH",
+    "createdAt": "2026-02-05T18:38:55.693Z",
+    "createdBy": "agent-A",
+    "status": "ASSIGNED",
+    "assignedTo": "agent-C",
+    "acceptedAt": "2026-02-05T18:38:55.701Z",
+    "startedAt": null,
+    "completedAt": null,
+    "eta": "3 hours",
+    "result": null,
+    "failureReason": null,
+    "history": [
+      {
+        "action": "CREATED",
+        "message": "Task created",
+        "timestamp": "2026-02-05T18:38:55.694Z",
+        "actor": "agent-A"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-C (ETA: 3 hours)",
+        "timestamp": "2026-02-05T18:38:55.701Z",
+        "actor": "agent-C"
+      }
+    ]
+  },
+  {
+    "id": "TASK-ML9SW1K1-JXD75",
+    "title": "Complex Research Project",
+    "description": "Research a complex topic requiring deep analysis",
+    "requirements": [
+      "research"
+    ],
+    "priority": "HIGH",
+    "createdAt": "2026-02-05T18:39:19.009Z",
+    "createdBy": "agent-A",
+    "status": "ASSIGNED",
+    "assignedTo": "agent-C",
+    "acceptedAt": "2026-02-05T18:39:19.333Z",
+    "startedAt": null,
+    "completedAt": null,
+    "eta": "6 hours",
+    "result": null,
+    "failureReason": "Unable to complete due to lack of required data sources",
+    "history": [
+      {
+        "action": "CREATED",
+        "message": "Task created",
+        "timestamp": "2026-02-05T18:39:19.009Z",
+        "actor": "agent-A"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-B (ETA: 4 hours)",
+        "timestamp": "2026-02-05T18:39:19.012Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "STARTED",
+        "message": "Task started",
+        "timestamp": "2026-02-05T18:39:19.123Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "FAILED",
+        "message": "Task failed: Unable to complete due to lack of required data sources",
+        "timestamp": "2026-02-05T18:39:19.312Z",
+        "actor": "agent-B"
+      },
+      {
+        "action": "REOPENED",
+        "message": "Task reopened for reassignment",
+        "timestamp": "2026-02-05T18:39:19.312Z",
+        "actor": "system"
+      },
+      {
+        "action": "ASSIGNED",
+        "message": "Task assigned to agent-C (ETA: 6 hours)",
+        "timestamp": "2026-02-05T18:39:19.333Z",
+        "actor": "agent-C"
+      }
+    ]
+  }
+]
